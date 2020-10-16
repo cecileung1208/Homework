@@ -25,12 +25,15 @@ There are 2 Folders that include:
     
     *   [Resources](https://github.com/cecileung1208/Python-Challenge/tree/master/PyBank/Results/Resources) - The CSV source file of all the P&L over Jan 2017 - Feb 2017.
 
+**Note:  Please check the directory path before running the code.  It should be ...\Homework\Unit 3- Python Challenge\PyBank\Results**
+
 * **Test**
 
     *   [PyBank_Test.py](https://github.com/cecileung1208/Python-Challenge/blob/master/PyBank/Test/PyBank_Test.py) - This is where I tested to ensure the code runs properly.  Comments are provided to explain how I got the solution.
     
     *  [Resources](https://github.com/cecileung1208/Python-Challenge/tree/master/PyBank/Test/Resources) - The CSV source file of all the P&L over Jan 2017 - Feb 2017.
 
+**Note:  Please check the directory path before running the code.  It should be ...\Homework\Unit 3- Python Challenge\PyBank\Test**
 
 ### **2.  PyPoll**
 
@@ -53,6 +56,9 @@ There are 2 Folders inside this code that includes:
     
     *  [Resources](https://github.com/cecileung1208/Python-Challenge/blob/master/PyPoll/Results/Resources/Py_Poll.csv) - The CSV source file of the election results.
 
+**Note:  Please check the directory path before running the code.  It should be ...\Homework\Unit 3- Python Challenge\PyPollResults**
+
+
 * **Test**
 
     *   [PyPoll_Test_Index.py](https://github.com/cecileung1208/Python-Challenge/blob/master/PyPoll/Test/Py_Poll_Test_Index.py) - Code is ran based on the index number of the unique list generated in the code.  Comments are provided to explain how I got the solution.
@@ -61,3 +67,4 @@ There are 2 Folders inside this code that includes:
     
     *    [Resources](https://github.com/cecileung1208/Python-Challenge/blob/master/PyPoll/Test/Resources/Py_Poll.csv) - The CSV source file for the election results.
 
+**Note:  Please check the directory path before running the code.  It should be ...\Homework\Unit 3- Python Challenge\PyPoll\Test**
