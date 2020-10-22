@@ -1,6 +1,6 @@
 # Panda-Challenge - Heroes of Pymoli
 
-## **This Homework has the following outputs
+## **This Homework has the following outputs:**
 
 ### **1.  Heroes of Pymoli - Jupyter Notebook**
 
