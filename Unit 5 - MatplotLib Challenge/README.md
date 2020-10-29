@@ -26,7 +26,7 @@ Based on the analysis from the Dataframes created in the Jupyter Notebook file, 
 For further details, please refer to the [Pymaceutical Observations file](https://github.com/cecileung1208/Homework/blob/master/Unit%205%20-%20MatplotLib%20Challenge/Pymaceuticals/Pymaceutical%20-%20Observations.docx).
 
 
-### **3.  Pymaceuticals Data Source*
+### **3.  Pymaceuticals Data Source**
 
 **The data frame is extracted from the following CSV Files in the [data directory](https://github.com/cecileung1208/Homework/tree/master/Unit%205%20-%20MatplotLib%20Challenge/Pymaceuticals/data):**
 *    [Mouse Metadata](https://github.com/cecileung1208/Homework/blob/master/Unit%205%20-%20MatplotLib%20Challenge/Pymaceuticals/data/Mouse_metadata.csv)
