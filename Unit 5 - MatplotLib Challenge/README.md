@@ -4,7 +4,7 @@
 
 ### **1.  Pymaceuticals - Jupyter Notebook**
 
-This [file](https://github.com/cecileung1208/Homework/tree/master/Unit%205%20-%20MatplotLib%20Challenge/Pymaceuticals) provides program codes that output various graphs and tables that determine the results of the cancer treatments across different drug regimen for 248 mice.  
+This [file](https://github.com/cecileung1208/Homework/blob/master/Unit%205%20-%20MatplotLib%20Challenge/Pymaceuticals/Pymaceuticals.ipynb) provides program codes that output various graphs and tables that determine the results of the cancer treatments across different drug regimen for 248 mice.  
 
 **The output are as follows:**
 *    Summary Statistics of Tumor Volume by Drug Regimen - Groupby Method
