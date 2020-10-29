@@ -28,6 +28,6 @@ For further details, please refer to the [Pymaceutical Observations file](https:
 
 ### **3.  Pymaceuticals Data Source**
 
-**The data frame is extracted from the following CSV Files in the [data directory](https://github.com/cecileung1208/Homework/tree/master/Unit%205%20-%20MatplotLib%20Challenge/Pymaceuticals/data):**
+The data frame is extracted from the following CSV Files in the [data directory](https://github.com/cecileung1208/Homework/tree/master/Unit%205%20-%20MatplotLib%20Challenge/Pymaceuticals/data):
 *    [Mouse Metadata](https://github.com/cecileung1208/Homework/blob/master/Unit%205%20-%20MatplotLib%20Challenge/Pymaceuticals/data/Mouse_metadata.csv)
 *    [Study Results](https://github.com/cecileung1208/Homework/blob/master/Unit%205%20-%20MatplotLib%20Challenge/Pymaceuticals/data/Study_results.csv)
