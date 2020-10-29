@@ -20,7 +20,7 @@ This [file](https://github.com/cecileung1208/Homework/tree/master/Unit%205%20-%2
 *    Scatter Plot of Average Tumor Size vs Weight for the Capomulin Drug Regimen
 *    Coefficient Correlation and Linear Regression Model t of Average Tumor Size vs Weight for the Capomulin Drug Regimen
 
-The data frame is extracted from the following CSV Files in the [data directory](https://github.com/cecileung1208/Homework/tree/master/Unit%205%20-%20MatplotLib%20Challenge/Pymaceuticals/data):
+**The data frame is extracted from the following CSV Files in the [data directory](https://github.com/cecileung1208/Homework/tree/master/Unit%205%20-%20MatplotLib%20Challenge/Pymaceuticals/data):**
 *    [Mouse Metadata](https://github.com/cecileung1208/Homework/blob/master/Unit%205%20-%20MatplotLib%20Challenge/Pymaceuticals/data/Mouse_metadata.csv)
 *    [Study Results](https://github.com/cecileung1208/Homework/blob/master/Unit%205%20-%20MatplotLib%20Challenge/Pymaceuticals/data/Study_results.csv)
 
