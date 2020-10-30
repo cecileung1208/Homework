@@ -10,18 +10,33 @@ This [file](https://github.com/cecileung1208/Homework/blob/master/Unit%205%20-%2
 
 **The output are as follows:**
 *    Observations and Insights
-*    Summary Statistics of Tumor Volume by Drug Regimen - Groupby Method
-*    Summary Statistics of Tumor Volume by Drug Regimen - Aggregate Method
-*    Bar Graph of Unique Mice by Drug Regimen - Dataframe Panda Method
-*    Bar Graph of Unique Mice by Drug Regimen - Pyplot Method
-*    Pie Chart of Mice Gender Distribution - Dataframe Panda Method
-*    Pie Chart of Mice Gender Distribution - Pyplot Method
+
+**Summary Statistics f Tumor Volume by Drug Regimen**
+*    Groupby Method - Mean, Median, Variance, Standard Deviation, and Standard Error from Mean
+*    Aggregate Method - Mean, Median, Variance, Standard Deviation, and Standard Error from Mean
+
+**Bar Graph of Unique Mice by Drug Regimen**
+*   Dataframe Panda Method
+*   Pyplot Method
+
+**Pie Chart of Mice Gender Distribution**
+*    Dataframe Panda Method
+*    Pyplot Method
+
+**Quartiles, Interquartiles and Boxplot of Most Promising Drug Regimen**
+The 4 drug regimens are: Capomulin, Ceftamin, Infubinol, Ramicane
 *    Quartiles and Interquartiles Results of the 4 Most Promising Drug Regimen
 *    Outliers of the 4 Most Promising Drug Regimen
 *    Boxplot of the 4 Most Promising Drug Regimen
-*    Line Graph of Tumor Size vs Timepoint for a Specific Mouse under the Capomulin Drug Regimen
-*    Scatter Plot of Average Tumor Size vs Weight for the Capomulin Drug Regimen
-*    Coefficient Correlation and Linear Regression Model t of Average Tumor Size vs Weight for the Capomulin Drug Regimen
+
+**Line Graph of Tumor Size vs Timepoint**
+*    Results for a Specific Mouse under the Capomulin Drug Regimen
+
+**Scatter Plot of Average Tumor Size vs Weight**
+*    Results under the  Capomulin Drug Regimen
+
+**Coeeficient Correlation and Linear Regression Model of Average Tumor Size vs Weight** 
+*    Results of Coefficient Correlation and Linear Regression under the Capomulin Scatter Plot
 
 ### **2.  Pymaceuticals Data Source**
 
