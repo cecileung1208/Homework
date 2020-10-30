@@ -11,9 +11,11 @@ This [file](https://github.com/cecileung1208/Homework/blob/master/Unit%205%20-%2
 **The output are as follows:**
 *    Observations and Insights
 
-**Summary Statistics f Tumor Volume by Drug Regimen**
-*    Groupby Method - Mean, Median, Variance, Standard Deviation, and Standard Error from Mean
-*    Aggregate Method - Mean, Median, Variance, Standard Deviation, and Standard Error from Mean
+**Summary Statistics of Tumor Volume by Drug Regimen**
+
+The mean, median, variance, standard deviation, and standard error from mean (sem) of the tumor volume will be calculated across the 10 drug regimen by the :
+*    Groupby Method
+*    Aggregate Method
 
 **Bar Graph of Unique Mice by Drug Regimen**
 *   Dataframe Panda Method
