@@ -4,19 +4,21 @@ To understand how the weather works globally, a Python script have been created 
 
 ## **The Summary of Results have the following outputs:**
 
-### **WeatherPy - Jupyter Notebook**
+### **1.  WeatherPy - Jupyter Notebook**
 
-This [file]https://github.com/cecileung1208/Homework/blob/master/Unit%206%20-%20Python%20API%20Challege/WeatherPy.ipynb) provides program codes that output the weather infomration and scatterplot graphs for 500+ cities and tables that determine the how the cities' latitude is correlated with the temperature, humidity, cloudiness, and windspeed. 
+This [file](https://github.com/cecileung1208/Homework/blob/master/Unit%206%20-%20Python%20API%20Challege/WeatherPy.ipynb) provides program codes that output the weather infomration and scatterplot graphs for 500+ cities and tables that determine the how the cities' latitude is correlated with the temperature, humidity, cloudiness, and windspeed. 
 
 **The output are as follows:**
 
-**Analysis of WeatherPy Results
+*   Analysis of WeatherPy Results
 
-**Generate Cities Liest**
+*   Generate Cities List
+    * Print Record of City List
+    * Dataframe of City Weather Information
+    * Dataframe of City CSV Export
 
-The mean, median, variance, standard deviation, and standard error from mean (sem) of the tumor volume will be calculated across the 10 drug regimen by the :
-*    Groupby Method
-*    Aggregate Method
+*    Plotting the Data - Scatter Plots
+     Scatter Plot of Latitu
 
 **Bar Graph of Unique Mice by Drug Regimen**
 *   Dataframe Panda Method
