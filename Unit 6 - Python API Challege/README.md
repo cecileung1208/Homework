@@ -8,44 +8,52 @@ To understand how the weather works globally, a Python script have been created 
 
 This [file](https://github.com/cecileung1208/Homework/blob/master/Unit%206%20-%20Python%20API%20Challege/WeatherPy.ipynb) provides program codes that output the weather infomration and scatterplot graphs for 500+ cities and tables that determine the how the cities' latitude is correlated with the temperature, humidity, cloudiness, and windspeed. 
 
-**The output are as follows:**
+#### **The output are as follows:**
 
-*   Analysis of WeatherPy Results
+*  **Analysis of WeatherPy Results**
 
-*   Generate Cities List
+*  **Generate Cities List**
     * Print Record of City List
     * Dataframe of City Weather Information
-    * Dataframe of City CSV Export
+    
+*  **Plotting the Data - Scatter Plots**
+    * Latitude vs. Maximum Temperature (F)
+    * Latitude vs. Humidity (%)
+    * Latitude vs. Cloudiness (%)
+    * Latitude vs. Windspeed (mph)
+    
+*  **Linear Regression**
+    * Northern Hemisphere - Maximum Temperature (F) vs Latitude
+    * Southern Hemisphere - Maximum Temperature (F) vs Latitude
+    * Northern Hemisphere - Humidity (%) vs Latitude
+    * Southern Hemisphere - Humidity (%) vs Latitude
+    * Northern Hemisphere - Cloudiness (%) vs. Latitude     
+    * Southern Hemisphere - Cloudiness (%) vs. Latitude   
+    * Northern Hemisphere - Wind Speed (mph) vs. Latitude
+    * Southern Hemisphere - Wind Speed (mph) vs. Latitude
+    
+### **2.  API Keys - Python File**
+This [file](https://github.com/cecileung1208/Homework/blob/master/Unit%206%20-%20Python%20API%20Challege/api_key.py) is to save the Openweather Map API keys to extract weather information for the various cities.
 
-*    Plotting the Data - Scatter Plots
-     Scatter Plot of Latitu
+### **3.  Output Files Folder**
+This [folder](https://github.com/cecileung1208/Homework/tree/master/Unit%206%20-%20Python%20API%20Challege/Output%20Files) provides a csv and png files from the WeatherPy Jupyter Notebook outputs.
 
-**Bar Graph of Unique Mice by Drug Regimen**
-*   Dataframe Panda Method
-*   Pyplot Method
+*  **CSV Files**
+    * [Dataframe of City Weather Information](https://github.com/cecileung1208/Homework/blob/master/Unit%206%20-%20Python%20API%20Challege/Output%20Files/weather_data.csv)
+   
+*  **PNG Image Files - Scatter Plots**
+    * [Latitude vs. Maximum Temperature (F)](https://github.com/cecileung1208/Homework/blob/master/Unit%206%20-%20Python%20API%20Challege/Output%20Files/Latitude_MaxTemp.png)
+    * [Latitude vs. Humidity (%)](https://github.com/cecileung1208/Homework/blob/master/Unit%206%20-%20Python%20API%20Challege/Output%20Files/Latitude_Humidity.png)
+    * [Latitude vs. Cloudiness (%)](https://github.com/cecileung1208/Homework/blob/master/Unit%206%20-%20Python%20API%20Challege/Output%20Files/Latitude_Cloudiness.png)
+    * [Latitude vs. Windspeed (mph)](https://github.com/cecileung1208/Homework/blob/master/Unit%206%20-%20Python%20API%20Challege/Output%20Files/Latitude_WindSpeed.png)
+    
+*  **PNG Image Files - Linear Regression**
 
-**Pie Chart of Mice Gender Distribution**
-*    Dataframe Panda Method
-*    Pyplot Method
-
-**Quartiles, Interquartiles and Boxplot of Most Promising Drug Regimen**
-
-The 4 drug regimens are: Capomulin, Ceftamin, Infubinol, Ramicane
-*    Quartiles and Interquartiles Results of the 4 Most Promising Drug Regimen
-*    Outliers of the 4 Most Promising Drug Regimen
-*    Boxplot of the 4 Most Promising Drug Regimen
-
-**Line Graph of Tumor Size vs Timepoint**
-*    Results for a Specific Mouse under the Capomulin Drug Regimen
-
-**Scatter Plot of Average Tumor Size vs Weight**
-*    Results under the  Capomulin Drug Regimen
-
-**Coeeficient Correlation and Linear Regression Model of Average Tumor Size vs Weight** 
-*    Results of Coefficient Correlation and Linear Regression under the Capomulin Scatter Plot
-
-### **2.  Pymaceuticals Data Source**
-
-The data frame is extracted from the following CSV Files in the [data directory](https://github.com/cecileung1208/Homework/tree/master/Unit%205%20-%20MatplotLib%20Challenge/Pymaceuticals/data):
-*    [Mouse Metadata](https://github.com/cecileung1208/Homework/blob/master/Unit%205%20-%20MatplotLib%20Challenge/Pymaceuticals/data/Mouse_metadata.csv)
-*    [Study Results](https://github.com/cecileung1208/Homework/blob/master/Unit%205%20-%20MatplotLib%20Challenge/Pymaceuticals/data/Study_results.csv)
+    * [Northern Hemisphere - Maximum Temperature (F) vs Latitude](https://github.com/cecileung1208/Homework/blob/master/Unit%206%20-%20Python%20API%20Challege/Output%20Files/Northern_Hemisphere_MaxTemp.png)
+    * [Southern Hemisphere - Maximum Temperature (F) vs Latitude](https://github.com/cecileung1208/Homework/blob/master/Unit%206%20-%20Python%20API%20Challege/Output%20Files/Southern_Hemisphere_MaxTemp.png)
+    * [Northern Hemisphere - Humidity (%) vs Latitude](https://github.com/cecileung1208/Homework/blob/master/Unit%206%20-%20Python%20API%20Challege/Output%20Files/Northern_Hemisphere_Humidity.png)
+    * [Southern Hemisphere - Humidity (%) vs Latitude](https://github.com/cecileung1208/Homework/blob/master/Unit%206%20-%20Python%20API%20Challege/Output%20Files/Southern_Hemisphere_Humidity.png)
+    * [Northern Hemisphere - Cloudiness (%) vs. Latitude](https://github.com/cecileung1208/Homework/blob/master/Unit%206%20-%20Python%20API%20Challege/Output%20Files/Northern_Hemisphere_Cloudiness.png)     
+    * [Southern Hemisphere - Cloudiness (%) vs. Latitude](https://github.com/cecileung1208/Homework/blob/master/Unit%206%20-%20Python%20API%20Challege/Output%20Files/Southern_Hemisphere_Cloudiness.png)   
+    * [Northern Hemisphere - Wind Speed (mph) vs. Latitude](https://github.com/cecileung1208/Homework/blob/master/Unit%206%20-%20Python%20API%20Challege/Output%20Files/Northern_Hemisphere_Windspeed.png)
+    * [Southern Hemisphere - Wind Speed (mph) vs. Latitude](https://github.com/cecileung1208/Homework/blob/master/Unit%206%20-%20Python%20API%20Challege/Output%20Files/Southern_Hemisphere_Windspeed.png)
