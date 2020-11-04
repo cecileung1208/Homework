@@ -8,7 +8,7 @@ To understand how the weather works globally, a Python script have been created 
 
 This [file](https://github.com/cecileung1208/Homework/blob/master/Unit%206%20-%20Python%20API%20Challege/WeatherPy.ipynb) provides program codes that output the weather infomration and scatterplot graphs for 500+ cities and tables that determine the how the cities' latitude is correlated with the temperature, humidity, cloudiness, and windspeed. 
 
-####**The output are as follows:**
+#### **The output are as follows:**
 
 *  **Analysis of WeatherPy Results**
 
