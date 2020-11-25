@@ -16,12 +16,18 @@ CREATE TABLE "Departments" (
 
 CREATE TABLE "Dept_Employees" (
     "emp_no" int   NOT NULL,
-    "dept_no" varchar   NOT NULL
+    "dept_no" varchar   NOT NULL,
+    CONSTRAINT "pk_Dept_Employees" PRIMARY KEY (
+        "emp_no","dept_no"
+     )
 );
 
 CREATE TABLE "Dept_Manager" (
     "dept_no" varchar   NOT NULL,
-    "emp_no" int   NOT NULL
+    "emp_no" int   NOT NULL,
+    CONSTRAINT "pk_Dept_Manager" PRIMARY KEY (
+        "dept_no","emp_no"
+     )
 );
 
 CREATE TABLE "Employees" (
