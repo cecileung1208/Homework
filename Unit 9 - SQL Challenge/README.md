@@ -1,6 +1,6 @@
 # SQL Challenge - Employee Database: A Mystery in Two Parts
 
-As a data engineer in Hewlett Packard, my manager made a request to research on employee data from the 1980s to 1990s. Six CSV databases were available to conduct the analysis. Since there are numerous rows of employee data and the information are scattered across the files, I must go through the below 3 steps of Data Modeling, Data Engineering and Data Analysis to complete my task.
+As a data engineer at Hewlett Packard, my manager made a request to research on employee data from the 1980s to 1990s. Six CSV databases were available to conduct the analysis. Since there are numerous rows of employee data and the information are scattered across the files, I must go through the below 3 steps of Data Modeling, Data Engineering and Data Analysis to complete my task.
 
 
 ## **1.  Data Modeling**
