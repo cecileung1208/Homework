@@ -30,7 +30,7 @@ After running the table_schema.sql and creating the headings for each table for 
 
 **Note: be sure to import the data in the same order that the tables were created and account for the headers when importing to avoid errors.**
 
-The below table shows which table corresponds to which CSV file and the import should be run in the following order.
+The below table shows which table corresponds to which CSV file and the import should be run in the following order:
 
 | SQL Table Name    | Corresponding CSV Table |
 | ------------- | ------------- |
@@ -45,9 +45,9 @@ The below table shows which table corresponds to which CSV file and the import s
 
 ## **3.  Data Analysis**
 
-After completing the Data Modeling and Data Engineering steps, we have enough understanding and infomrmation to extract specific employee information from the databases. 
+After completing the Data Modeling and Data Engineering steps, we have enough understanding and information to extract specific employee information from the databases. 
 
-To conduct our Employee Data Analysis, a [queries sql file](https://github.com/cecileung1208/Homework/blob/master/Unit%207%20-%20SQL%20Challenge/Employee_SQL/Queries.sql) has been created to retrieve the following employee information.
+To conduct our Employee Data Analysis, a [queries file](https://github.com/cecileung1208/Homework/blob/master/Unit%207%20-%20SQL%20Challenge/Employee_SQL/Queries.sql) has been created to retrieve the following employee information.
 
 1.  List the following details of each employee: employee number, last name, first name, sex, and salary.
 
