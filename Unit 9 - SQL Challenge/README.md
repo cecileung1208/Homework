@@ -22,7 +22,7 @@ To conduct any data analysis, a data engineer must know what information the dat
     
 ## **2.  Data Engineering**
 
-Based on the above Entity Relationship Diagram (ERD), a [table schema](https://github.com/cecileung1208/Homework/blob/master/Unit%207%20-%20SQL%20Challenge/Employee_SQL/Table_Schema.sql) has been exported as a sql file to create the tables in PostgerSQL.
+Based on the above Entity Relationship Diagram (ERD), a [table schema](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Table_Schema.sql) has been exported as a sql file to create the tables in PostgerSQL.
 
 The table schema information is based on the six CSV files where all data types, primary keys, foreign keys, and other constraints are specified .
 
@@ -34,12 +34,12 @@ The below table shows which table corresponds to which CSV file and the import s
 
 | SQL Table Name    | Corresponding CSV Table |
 | ------------- | ------------- |
-| "Departments"  | [departments.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%207%20-%20SQL%20Challenge/Resources/departments.csv)  |
-| "Titles"  | [titles.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%207%20-%20SQL%20Challenge/Resources/titles.csv)  |
-| "Employees"  | [employees.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%207%20-%20SQL%20Challenge/Resources/employees.csv)  |
-| "Salaries"  | [salaries.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%207%20-%20SQL%20Challenge/Resources/salaries.csv)  |
-| "Dept_Emp"  | [dept_emp.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%207%20-%20SQL%20Challenge/Resources/dept_emp.csv)  |
-| "Dept_Manager"  | [dept_manager.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%207%20-%20SQL%20Challenge/Resources/dept_manager.csv)  |
+| "Departments"  | [departments.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Resources/departments.csv)  |
+| "Titles"  | [titles.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Resources/titles.csv)  |
+| "Employees"  | [employees.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Resources/employees.csv)  |
+| "Salaries"  | [salaries.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Resources/salaries.csv)  |
+| "Dept_Emp"  | [dept_emp.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Resources/dept_emp.csv)  |
+| "Dept_Manager"  | [dept_manager.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Resources/dept_manager.csv)  |
 
 
 
@@ -47,7 +47,7 @@ The below table shows which table corresponds to which CSV file and the import s
 
 After completing the Data Modeling and Data Engineering steps, we have enough understanding and information to extract specific employee information from the databases. 
 
-To conduct our Employee Data Analysis, a [queries file](https://github.com/cecileung1208/Homework/blob/master/Unit%207%20-%20SQL%20Challenge/Employee_SQL/Queries.sql) has been created to retrieve the following employee information.
+To conduct our Employee Data Analysis, a [queries file](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Queries.sql) has been created to retrieve the following employee information.
 
 1.  List the following details of each employee: employee number, last name, first name, sex, and salary.
 
@@ -68,12 +68,14 @@ To conduct our Employee Data Analysis, a [queries file](https://github.com/cecil
 
 ## **4.  Bonus**
 
-Upon examining the data, I wanted to test the validity of the dataset to ensure it is accurate. dataset is fake. To confirm this, the [Bonus file](https://github.com/cecileung1208/Homework/blob/master/Unit%207%20-%20SQL%20Challenge/Employee_SQL/Bonus.ipynb) from the Jupyter Notebook to import the SQL database into Pandas via SQL Alchemy.
+Upon examining the data, I wanted to test the validity of the dataset to ensure it is accurate. dataset is fake. To confirm this, the [Bonus file](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Bonus.ipynb) from the Jupyter Notebook to import the SQL database from PostgreSQL into Pandas via SQL Alchemy.
+
+Note: [gitignore](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/.gitignore) file has been created to ensure others do not have my personal access to my PostgreSQL.
 
 The following steps are used generate a visualization of the data:
 
-1.  [Historgram - Most Common Salary Ranges for Employees](https://github.com/cecileung1208/Homework/blob/master/Unit%207%20-%20SQL%20Challenge/Output%20Files/Salary%20Ranges%20for%20Employees.png)
-2.  [Bar Chart - Average Salary by Title](https://github.com/cecileung1208/Homework/blob/master/Unit%207%20-%20SQL%20Challenge/Output%20Files/Average%20Salary%20by%20Title.png)
+1.  [Historgram - Most Common Salary Ranges for Employees](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Output%20Files/Salary%20Ranges%20for%20Employees.png)
+2.  [Bar Chart - Average Salary by Title](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Output%20Files/Average%20Salary%20by%20Title.png)
 
 ## **5.  Folders and Directories**
 
@@ -81,15 +83,17 @@ The below folders have the following files:
 
 | Folder Name    | File Name |
 | ------------- | ------------- |
-| Employee SQL  | [Table_Schema.sql](https://github.com/cecileung1208/Homework/blob/master/Unit%207%20-%20SQL%20Challenge/Employee_SQL/Table_Schema.sql)  |
-|               | [Queries.sql](https://github.com/cecileung1208/Homework/blob/master/Unit%207%20-%20SQL%20Challenge/Employee_SQL/Queries.sql)  |
-|               | [Bonus.ipynb](https://github.com/cecileung1208/Homework/blob/master/Unit%207%20-%20SQL%20Challenge/Employee_SQL/Bonus.ipynb)  |
-| Output        | [ERD - Employee Database.png](https://github.com/cecileung1208/Homework/blob/master/Unit%207%20-%20SQL%20Challenge/Output%20Files/ERD%20-%20Employee%20Database.png)  |
-|               | [Salaries Ranges for Employees.png](https://github.com/cecileung1208/Homework/blob/master/Unit%207%20-%20SQL%20Challenge/Output%20Files/Salary%20Ranges%20for%20Employees.png)  |
-|               | [Average Salary by Title.png](https://github.com/cecileung1208/Homework/blob/master/Unit%207%20-%20SQL%20Challenge/Output%20Files/Average%20Salary%20by%20Title.png)  |
-| Resources   | [departments.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%207%20-%20SQL%20Challenge/Resources/departments.csv)  |
-|             | [dept_emp.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%207%20-%20SQL%20Challenge/Resources/dept_emp.csv)  |
-|             | [dept_manager.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%207%20-%20SQL%20Challenge/Resources/dept_manager.csv)  |
-|             | [employees.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%207%20-%20SQL%20Challenge/Resources/employees.csv)  |
-|             | [salaries.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%207%20-%20SQL%20Challenge/Resources/salaries.csv)  |
-|             | [titles.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%207%20-%20SQL%20Challenge/Resources/titles.csv)  |
+| Employee SQL  | [Table_Schema.sql](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Table_Schema.sql)  |
+|               | [Queries.sql](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Queries.sql)  |
+|               | [Bonus.ipynb](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Bonus.ipynb)  |
+|               | [.gitignore](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/.gitignore)  |
+| Output        | [ERD - Employee Database.png](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Output%20Files/ERD%20-%20Employee%20Database.png)  |
+|               | [Salaries Ranges for Employees.png](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Output%20Files/Salary%20Ranges%20for%20Employees.png)  |
+|               | [Average Salary by Title.png](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Output%20Files/Average%20Salary%20by%20Title.png)  |
+|               | [Relationship.png](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Output%20Files/Relationship.png)  |
+| Resources   | [departments.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Resources/departments.csv)  |
+|             | [dept_emp.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Resources/dept_emp.csv)  |
+|             | [dept_manager.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Resources/dept_manager.csv)  |
+|             | [employees.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Resources/employees.csv)  |
+|             | [salaries.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Resources/salaries.csv)  |
+|             | [titles.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Resources/titles.csv)  |
