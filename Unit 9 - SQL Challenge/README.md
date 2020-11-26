@@ -1,11 +1,11 @@
 # SQL Challenge - Employee Database: A Mystery in Two Parts
 
-As a data engineer at Hewlett Packard, my manager made a request to research on employee data from the 1980s to 1990s. Six CSV databases were available to conduct the analysis. Since there are numerous rows of employee data and the information are scattered across the files, I must go through the below 3 steps of Data Modeling, Data Engineering and Data Analysis to complete my task.
+As a data engineer at Hewlett Packard, Management made a request to research on employee data from the 1980s to 1990s. Six CSV databases were available to conduct the analysis. Since there are numerous rows of employee data and information are scattered across the files, I must go through the below 3 steps of Data Modeling, Data Engineering and Data Analysis to complete my task.
 
 
 ## **1.  Data Modeling**
 
-To conduct any data analysis, a data engineer must know what information the databases contain and how the attributes are related to one another. The perfect way is to map it out in a Entity Relationship Diagram (ERD) in  [http://www.quickdatabasediagrams.com]( http://www.quickdatabasediagrams.com).
+To conduct any data analysis, a data engineer must know what information the databases contain and how the attributes are related to one another. The perfect way is to map it out in a Entity Relationship Diagram (ERD) in  [http://www.quickdatabasediagrams.com]( http://www.quickdatabasediagrams.com).  See the below image to see how ERD of the Employee Databases.
 
 ![Image](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Output%20Files/ERD%20-%20Employee%20Database.png)
 
@@ -68,7 +68,7 @@ To conduct our Employee Data Analysis, a [queries file](https://github.com/cecil
 
 ## **4.  Bonus**
 
-Upon examining the data, I wanted to test the validity of the dataset to ensure it is accurate. dataset is fake. To confirm this, the [Bonus file](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Bonus.ipynb) from the Jupyter Notebook to import the SQL database from PostgreSQL into Pandas via SQL Alchemy.
+Upon examining the data, I wanted to test the validity of the dataset to ensure it is accurate. To confirm this, the [Bonus file](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Bonus.ipynb) from the Jupyter Notebook to import the SQL database from PostgreSQL into Pandas via SQL Alchemy.
 
 Note: [gitignore](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/.gitignore) file has been created to ensure others do not have my personal access to my PostgreSQL.
 
