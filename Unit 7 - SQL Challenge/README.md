@@ -59,3 +59,13 @@ To conduct our Employee Data Analysis, a [queries sql file](https://github.com/c
 7.  List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
 
 8.  In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+
+
+## **4.  Bonus**
+
+Upon examining the data, I wanted to test the validity of the dataset to ensure it is accurate. dataset is fake. To confirm this, the [Bonus file](https://github.com/cecileung1208/Homework/blob/master/Unit%207%20-%20SQL%20Challenge/Employee_SQL/Bonus.ipynb) from the Jupyter Notebook to import the SQL database into Pandas via SQL Alchemy.
+
+The following steps are used generate a visualization of the data:
+
+1.  [Historgram - Most Common Salary Ranges for Employees](https://github.com/cecileung1208/Homework/blob/master/Unit%207%20-%20SQL%20Challenge/Output%20Files/Salary%20Ranges%20for%20Employees.png)
+2.  [Bar Chart - Average Salary by Title](https://github.com/cecileung1208/Homework/blob/master/Unit%207%20-%20SQL%20Challenge/Output%20Files/Average%20Salary%20by%20Title.png)
