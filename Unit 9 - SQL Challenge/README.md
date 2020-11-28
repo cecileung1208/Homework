@@ -74,8 +74,8 @@ Note: [gitignore](https://github.com/cecileung1208/Homework/blob/master/Unit%209
 
 The following steps are used generate a visualization of the data:
 
-1.  [Historgram - Most Common Salary Ranges for Employees](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Output%20Files/Salary%20Ranges%20for%20Employees.png)
-2.  [Bar Chart - Average Salary by Title](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Output%20Files/Average%20Salary%20by%20Title.png)
+1.  [Historgram - Most Common Salary Ranges for Employees](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Output%20Files/Salary%20Ranges%20for%20Employees.png)
+2.  [Bar Chart - Average Salary by Title](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Output%20Files/Average%20Salary%20by%20Title.png)
 
 ## **5.  Folders and Directories**
 
@@ -87,13 +87,18 @@ The below folders have the following files:
 |               | [Queries.sql](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Queries.sql)  |
 |               | [Bonus.ipynb](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Bonus.ipynb)  |
 |               | [.gitignore](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/.gitignore)  |
-| Output        | [ERD - Employee Database.png](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Output%20Files/ERD%20-%20Employee%20Database.png)  |
-|               | [Salaries Ranges for Employees.png](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Output%20Files/Salary%20Ranges%20for%20Employees.png)  |
-|               | [Average Salary by Title.png](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Output%20Files/Average%20Salary%20by%20Title.png)  |
-|               | [Relationship.png](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Output%20Files/Relationship.png)  |
-| Resources   | [departments.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Resources/departments.csv)  |
-|             | [dept_emp.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Resources/dept_emp.csv)  |
-|             | [dept_manager.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Resources/dept_manager.csv)  |
-|             | [employees.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Resources/employees.csv)  |
-|             | [salaries.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Resources/salaries.csv)  |
-|             | [titles.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Resources/titles.csv)  |
+
+Inside the Employee SQL Folder, there are the Ouput and Resources folders that stores the following files:
+
+| Folder Name    | File Name |
+| ------------- | ------------- |
+| Output        | [ERD - Employee Database.png]https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Output%20Files/ERD%20-%20Employee%20Database.png)  |
+|               | [Salaries Ranges for Employees.png](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Output%20Files/Salary%20Ranges%20for%20Employees.png)  |
+|               | [Average Salary by Title.png](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Output%20Files/Average%20Salary%20by%20Title.png)  |
+|               | [Relationship.png](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Output%20Files/Relationship.png)  |
+| Resources   | [departments.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Resources/departments.csv)  |
+|             | [dept_emp.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Resources/dept_emp.csv)  |
+|             | [dept_manager.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Resources/dept_manager.csv)  |
+|             | [employees.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Resources/employees.csv)  |
+|             | [salaries.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Resources/salaries.csv)  |
+|             | [titles.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Resources/titles.csv)  |
