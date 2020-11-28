@@ -1,6 +1,6 @@
 # SQL Challenge - Employee Database: A Mystery in Two Parts
 
-As a data engineer at Hewlett Packard, Management made a request to research on employee data from the 1980s to 1990s. Six CSV databases were available to conduct the analysis. Since there are numerous rows of employee data and information are scattered across the files, I must go through the below 3 steps of Data Modeling, Data Engineering and Data Analysis to complete my task.
+As a data engineer at Pewlett Hackard., management  made a request to research on employee data from the 1980s to 1990s. Six CSV databases were available to conduct the analysis. Since there were numerous rows and the information were scattered across the databases, I must go through the below 3 steps of Data Modeling, Data Engineering and Data Analysis to complete my investigation.
 
 
 ## **1.  Data Modeling**
@@ -11,7 +11,7 @@ To conduct any data analysis, a data engineer must know what information the dat
 
 * The [Data Model](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Output%20Files/ERD%20-%20Employee%20Database.png) is saved in the output directory.
 * Each box represents a table and its attributes (columns). 
-* The data taypes are listed for each attribute.
+* The data types are listed for each attribute.
 * The key icon represents the primary keys uniquely identifies the records in each table.
 * The line that connects to each table shows how the tables are related through common attirbutes.  
 * The line also shows the type of relationship of the common attributes.  See the below image to determine the type relationship between the tables.
@@ -28,7 +28,7 @@ The table schema information is based on the six CSV files where all data types,
 
 After running the table_schema.sql and creating the headings for each table for Postregres, we must import ach CSV file into the corresponding SQL table. 
 
-**Note: be sure to import the data in the same order that the tables were created and account for the headers when importing to avoid errors.**
+**Note: Be sure to import the data in the same order that the tables were created and account for the headers when importing to avoid errors.**
 
 The below table shows which table corresponds to which CSV file and the import should be run in the following order:
 
@@ -45,7 +45,7 @@ The below table shows which table corresponds to which CSV file and the import s
 
 ## **3.  Data Analysis**
 
-After completing the Data Modeling and Data Engineering steps, we have enough understanding and information to extract specific employee information from the databases. 
+After completing the Data Modeling and Data Engineering steps, we have all the information to extract specific employee information from the databases. 
 
 To conduct our Employee Data Analysis, a [queries file](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Queries.sql) has been created to retrieve the following employee information.
 
@@ -68,7 +68,7 @@ To conduct our Employee Data Analysis, a [queries file](https://github.com/cecil
 
 ## **4.  Bonus**
 
-Upon examining the data, I wanted to test the validity of the dataset to ensure it is accurate. To confirm this, the [Bonus file](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Bonus.ipynb) from the Jupyter Notebook to import the SQL database from PostgreSQL into Pandas via SQL Alchemy.
+Upon examining the data, I wanted to test the validity of the dataset to ensure it is accurate. To confirm this, the [Bonus file](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Bonus.ipynb) Jupyter Notebook has been created to import the PostgreSQL database to Pandas Dataframes via SQL Alchemy.
 
 Note: [gitignore](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/.gitignore) file has been created to ensure others do not have my personal access to my PostgreSQL.
 
