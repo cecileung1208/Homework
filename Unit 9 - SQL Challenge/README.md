@@ -65,6 +65,7 @@ To conduct our Employee Data Analysis, a [queries file](https://github.com/cecil
 
 8.  In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 
+To see the results of the database, this can be run on PostgresSQL.
 
 ## **4.  Bonus**
 
