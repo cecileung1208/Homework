@@ -7,9 +7,9 @@ As a data engineer at Pewlett Hackard., management  made a request to research o
 
 To conduct any data analysis, a data engineer must know what information the databases contain and how the attributes are related to one another. The perfect way is to map it out in a Entity Relationship Diagram (ERD) in  [http://www.quickdatabasediagrams.com]( http://www.quickdatabasediagrams.com).  See the below image to see how ERD of the Employee Databases.
 
-![Image](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Output%20Files/ERD%20-%20Employee%20Database.png)
+![Image](https://github.com/cecileung1208/Homework/tree/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Output%20Files)
 
-* The [Data Model](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Output%20Files/ERD%20-%20Employee%20Database.png) is saved in the output directory.
+* The [Data Model](https://github.com/cecileung1208/Homework/tree/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Output%20Files) is saved in the output directory.
 * Each box represents a table and its attributes (columns). 
 * The data types are listed for each attribute.
 * The key icon represents the primary keys uniquely identifies the records in each table.
