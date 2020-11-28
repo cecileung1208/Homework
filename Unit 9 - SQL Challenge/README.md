@@ -92,7 +92,7 @@ Inside the Employee SQL Folder, there are the Ouput and Resources folders that s
 
 | Folder Name    | File Name |
 | ------------- | ------------- |
-| Output        | [ERD - Employee Database.png]https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Output%20Files/ERD%20-%20Employee%20Database.png)  |
+| Output        | [ERD - Employee Database.png](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Output%20Files/ERD%20-%20Employee%20Database.png)  |
 |               | [Salaries Ranges for Employees.png](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Output%20Files/Salary%20Ranges%20for%20Employees.png)  |
 |               | [Average Salary by Title.png](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Output%20Files/Average%20Salary%20by%20Title.png)  |
 |               | [Relationship.png](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Output%20Files/Relationship.png)  |
