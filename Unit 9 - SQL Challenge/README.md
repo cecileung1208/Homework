@@ -35,7 +35,7 @@ The below table shows which table corresponds to which CSV file and the import s
 | SQL Table Name    | Corresponding CSV Table |
 | ------------- | ------------- |
 | "Departments"  | [departments.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Resources/departments.csv)  |
-| "Titles"  | [titles.csv]https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Resources/titles.csv)  |
+| "Titles"  | [titles.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Resources/titles.csv)  |
 | "Employees"  | [employees.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Resources/employees.csv)  |
 | "Salaries"  | [salaries.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Resources/salaries.csv)  |
 | "Dept_Emp"  | [dept_emp.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Resources/dept_emp.csv)  |
