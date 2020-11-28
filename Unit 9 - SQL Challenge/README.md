@@ -68,7 +68,7 @@ To conduct our Employee Data Analysis, a [queries file](https://github.com/cecil
 
 ## **4.  Bonus**
 
-Upon examining the data, I wanted to test the validity of the dataset to ensure it is accurate. To confirm this, the [Bonus file](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Bonus.ipynb) Jupyter Notebook has been created to import the PostgreSQL database to Pandas Dataframes via SQL Alchemy.
+Upon examining the data, I wanted to test the validity of the dataset to ensure it is accurate. To confirm this, the [Bonus file](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Bonus.ipynb) has been created to import the PostgreSQL database to Pandas Dataframes via SQL Alchemy.
 
 Note: [gitignore](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/.gitignore) file has been created to ensure others do not have my personal access to my PostgreSQL.
 
