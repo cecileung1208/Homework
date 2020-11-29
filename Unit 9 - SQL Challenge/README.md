@@ -73,7 +73,7 @@ Upon examining the data, I wanted to test the validity of the dataset to ensure 
 
 Note: [gitignore](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/.gitignore) file has been created to ensure others do not have my personal access to my PostgreSQL.
 
-The below visualization are used to prove the validity of the employee data:
+The below visualizations are used to prove the validity of the employee data:
 
 1.  [Historgram - Most Common Salary Ranges for Employees](https://github.com/cecileung1208/Homework/blob/master/Unit%209%20-%20SQL%20Challenge/Employee_SQL/Output%20Files/Salary%20Ranges%20for%20Employees.png)
 
