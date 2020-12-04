@@ -23,6 +23,7 @@ To ensure that my analysis is accurate, weather information have been gathered f
 
 A query have been designed to determine the total number of stations, most active station with the highest number of observations, and to retrieve the last 12 months temperature observation data (TOBS).
 
+The below histogram shows the frequency of the range of temperature in Hawaii form the most active station.
 
 ![Image](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/Output%20Files/Annual%20Temperature.png)
 
