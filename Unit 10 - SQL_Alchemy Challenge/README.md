@@ -32,7 +32,7 @@ The below histogram shows the frequency of the range of temperature in Hawaii fo
 
 Upon the completion of my initial analysis, a [Flask API file](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/app.py) have been designed for the queries I have developed.
 
-The Flask API have been have the following routes:
+The Flask API have the following routes:
 
 
 * **Home page (/)**
