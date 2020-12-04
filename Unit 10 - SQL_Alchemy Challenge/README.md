@@ -49,3 +49,33 @@ The Flask API have been have the following routes:
   **Note:**  Dates should be entered in the format YYYY-MM-DD.<br/>
          Example 1 (/api/v1.0/2017-05-01)<br/>
          Example 2 (/api/v1.0/2017-05-01/2017-05-08)<br/>
+         
+  
+## **3. - Other Useful Analysis**
+
+
+### **Temperature Analysis I**
+
+Hawaii is reputed to enjoy mild weather all year. Is there a meaningful difference between the temperature in, for example, June and December?
+
+Analysis have been conducted by determining the averages of June an December for all stations across all available years in the dataset. 
+
+A T-Test has been conducted to determine to test the difference of the mean with the following hypothesis.
+
+Null Hypothesis: Mean Difference = 0<br/>
+Alternative Hypothesis: Mean Difference > 0<br/>
+
+P-value = 0.00036573
+
+Since the p-value is almost 0.0004 , there is a difference in the mean temperatures in June and December.Paired t-tests are considered more powerful than unpaired t-tests because using the same samples eliminiate variation between the samples that could be caused by anything other than what’s being tested.
+
+Details of the analysis is in the [Climate Starter Notebook](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/climate_starter.ipynb)
+
+### **Temperature Analysis II**
+
+My manager have approved my vacation days!  I am off to Hawaii from August 2 to August 10 and will having a lot of fun in the sun!!
+
+The calc_temps function have been created to calculate the min, avg, and max temperatures for my trip.  The below graph shows the range of temperature during August 2 to Augst 10.
+
+![Image](http://localhost:8888/view/Desktop/UTSC/Homework/Unit%2010%20-%20SQL_Alchemy%20Challenge/Output%20Files/Trip%20Average%20Temperature.png)
+
