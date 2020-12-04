@@ -53,6 +53,7 @@ The Flask API have been have the following routes:
   
 ## **3. - Other Useful Analysis**
 
+I have conducted additonal analysis to make the most out of my trip in the [Climate Starter Notebook](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/climate_starter.ipynb).
 
 ### **Temperature Analysis I**
 
@@ -77,5 +78,52 @@ My manager have approved my vacation days!  I am off to Hawaii from August 2 to 
 
 The calc_temps function have been created to calculate the min, avg, and max temperatures for my trip.  The below graph shows the range of temperature during August 2 to Augst 10.
 
-![Image](http://localhost:8888/view/Desktop/UTSC/Homework/Unit%2010%20-%20SQL_Alchemy%20Challenge/Output%20Files/Trip%20Average%20Temperature.png)
+![Image](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/Output%20Files/Trip%20Average%20Temperature.png)
 
+### **Daily Rainfall Analysis**
+
+Daily Rainfall Average
+
+
+Calculate the rainfall per weather station using the previous year's matching dates.
+
+| Station ID    | Station Name | Latitude | Longitude | Elevation | Total Rainfall |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| USC00516128    | MANOA LYON ARBO 785.2, HI US | 21.33310 | -157.80250| 152.4 | 0.92 |
+| USC00514830    | KUALOA RANCH HEADQUARTERS 886.9, HI US | 21.52130 | -157.83740 | 7.0 | 0.2 |
+| USC00519281    | USC00519281	WAIHEE 837.5, HI US | 21.45167 | -157.84889 | 32.9 | 0.06 |
+| USC00519397    | WAIKIKI 717.2, HI US | 21.27160 | -157.81680 | 3.0 | 0.02 |
+| USC00519523    | WAIMANALO EXPERIMENTAL FARM, HI US | 21.33556 | -157.71139 | 19.5 | 0.00 |
+
+
+### **Daily Normals**
+
+The daily_normal funcion was used to calculate the averages for the min, avg, and max temperatures for my trip.  This date string will be in the format %m-%d that will use all historic TOBS that match that date string.
+
+![Image](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/Output%20Files/Daily%20Normals.png)
+
+
+## **4.  Folders and Directories**
+
+The below folders have the following files:
+
+| Folder Name    | File Name |
+| ------------- | ------------- |
+| Unit 10 - SQL_Alchemy Challenge  | [README.md](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/README.md)  |
+|                                  | [app.py](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/app.py) |
+|                                  | [climate_starter.ipynb](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/climate_starter.ipynb)|
+
+Inside the Employee SQL_Alchemy Challenge Folder, there are the Ouput and Resources folders that stores the following files:
+
+| Folder Name    | File Name |
+| ------------- | ------------- |
+| Output        | [Annual Precipitation.png](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/Output%20Files/Annual%20Precipitation.png)|
+|               | [Annual Temperature.png](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/Output%20Files/Annual%20Temperature.png)|
+|               | [Daily Normals.png](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/Output%20Files/Daily%20Normals.png)  |
+|               | [Trip Average Temperature.png](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/Output%20Files/Trip%20Average%20Temperature.png)  |
+| Resources   | [hawaii.sqlite](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/Resources/hawaii.sqlite)  |
+|             | [hawaii_meaurements.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/Resources/hawaii_measurements.csv)  |
+|             | [hawaii_stations.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/Resources/hawaii_stations.csv)  |
+
+
+|
