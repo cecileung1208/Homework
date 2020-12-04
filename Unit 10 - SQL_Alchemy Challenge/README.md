@@ -43,14 +43,14 @@ Then, a histogram has been created to show the frequency of the range of tempera
 
 ## **2. - Climate App**
 
-Upon the completion of my initial analysis, a [Flask API file](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/app.py) have been designed for the queries I have developed.
+Upon the completion of my initial analysis, a [Flask API file](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/app.py) have been designed for the queries I have developed.  The file can be run on Visual Studio Code.
 
 The Flask API have the following routes:
 
 
 * **Home page (/)**
 
-* **Precipitation (/api/v1.0/precipitation)**<br/> - Return a JSON list of all precipitation information.
+* **Precipitation (/api/v1.0/precipitation)**<br/> - Return a JSON list of all precipitation information in the Hawaii SQLite Database.
     
 * **Stations (/api/v1.0/stations)**<br/> - Return a JSON list of stations from the dataset.
   
@@ -82,7 +82,7 @@ P-value = 0.00036573
 
 Since the p-value is almost 0.0004 , there is a difference in the mean temperatures in June and December.  Paired t-tests are considered more powerful than unpaired t-tests because using the same samples eliminiate variation between the samples that could be caused by anything other than what’s being tested.
 
-Details of the analysis is in the [Climate Starter Notebook](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/climate_starter.ipynb)
+Details of the average figures are in the [Climate Starter Notebook](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/climate_starter.ipynb)
 
 ### **Temperature Analysis II**
 
