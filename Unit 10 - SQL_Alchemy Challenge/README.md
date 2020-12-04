@@ -6,7 +6,7 @@ After settling in my career as a Data Analyst, I have decided to treat myself to
 
 Python and SQLAlchemy have been used to conduct climate anlysis and data exploration by connecting to the SQLite Database. 
 
-The analysis is completed in the [Climate Starter Notebook](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/climate_starter.ipynb) and [Hawaii SQLite Dabtabse](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/Resources/hawaii.sqlite) have been used to obtain the climate results using SQLAlchemy ORM queries, Pandas, and Matplotlib methods.
+The analysis is completed in the [Climate Starter Notebook](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/climate_starter.ipynb) by connecting to the [Hawaii SQLite Dabtabse](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/Resources/hawaii.sqlite) to obtain climate results using the SQLAlchemy ORM queries, Pandas, and Matplotlib.
 
 
 ### **Precipitation Analysis**
@@ -42,7 +42,7 @@ The Flask API have been have the following routes:
   
 * **TOBS (/api/v1.0/tobs)** <br/> - Return a JSON list of temperature observations (TOBS) for the previous year.
   
-* **Temperature Statistics for Start Date (/api/v1.0/startdate)**<br/> - Return a JSON list of the minimum temperature, the average temperature, and the max temperature for a given start date of your choice to the last day of the database.
+* **Temperature Statistics for Start Date (/api/v1.0/startdate)**<br/> - Return a JSON list of the minimum temperature, the average temperature, and the max temperature for a given start date of your choice to the last day on the database.
   
 * **Temperature Statistics for Start Date and End Date (/api/v1.0/startdate/enddate)**<br/> - Return a JSON list of the minimum temperature, the average temperature, and the max temperature for a given start date and last date of your choice. 
   
@@ -74,18 +74,15 @@ Details of the analysis is in the [Climate Starter Notebook](https://github.com/
 
 ### **Temperature Analysis II**
 
-My manager have approved my vacation days!  I am off to Hawaii from August 2 to August 10 and will having a lot of fun in the sun!!
+My manager have approved my vacation days!  I am off to Hawaii from August 2 to August 10 and will be having lots of fun in the sun!!
 
-The calc_temps function have been created to calculate the min, avg, and max temperatures for my trip.  The below graph shows the range of temperature during August 2 to Augst 10.
+The calc_temps function have been created to calculate the min, avg, and max temperatures for my trip.  The below graph shows the range of temperature during August 2 to August 10.
 
 ![Image](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/Output%20Files/Trip%20Average%20Temperature.png)
 
 ### **Daily Rainfall Analysis**
 
-Daily Rainfall Average
-
-
-Calculate the rainfall per weather station using the previous year's matching dates.
+Calculating the the total rainfall per weather station using the previous year's matching dates for my trip.
 
 | Station ID    | Station Name | Latitude | Longitude | Elevation | Total Rainfall |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -98,7 +95,7 @@ Calculate the rainfall per weather station using the previous year's matching da
 
 ### **Daily Normals**
 
-The daily_normal funcion was used to calculate the averages for the min, avg, and max temperatures for my trip.  This date string will be in the format %m-%d that will use all historic TOBS that match that date string.
+The daily_normal function was used to calculate the averages for the min, avg, and max temperatures for my trip.  This date string will be in the format %m-%d that will use all historic TOBS that match that date string.
 
 ![Image](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/Output%20Files/Daily%20Normals.png)
 
@@ -124,6 +121,3 @@ Inside the Employee SQL_Alchemy Challenge Folder, there are the Ouput and Resour
 | Resources   | [hawaii.sqlite](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/Resources/hawaii.sqlite)  |
 |             | [hawaii_meaurements.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/Resources/hawaii_measurements.csv)  |
 |             | [hawaii_stations.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/Resources/hawaii_stations.csv)  |
-
-
-|
