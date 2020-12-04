@@ -36,11 +36,7 @@ A query have been designed to determine the total number of stations and the mos
 |USC00518838 | UPPER WAHIAWA 874.3, HI US | 511|
 
 
-
-
-and to retrieve the last 12 months temperature observation data (TOBS).
-
-The below histogram shows the frequency of the range of temperature in Hawaii form the most active station.
+Then, a histogram has been created to show the frequency of the range of temperature in Hawaii form the most active station.
 
 ![Image](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/Output%20Files/Annual%20Temperature.png)
 
