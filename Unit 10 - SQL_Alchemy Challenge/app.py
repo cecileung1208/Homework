@@ -1,4 +1,4 @@
-# import all the stuff
+#Import Dependencies
 import datetime as dt
 import numpy as np
 import pandas as pd
@@ -8,21 +8,13 @@ from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func, inspect
 from flask import Flask, jsonify
 
-#SQLAlchemy 
+#SQLAlchemy and connect SQLite Database
 engine = create_engine("sqlite:///Resources/hawaii.sqlite")
 Base = automap_base()
 Base.prepare(engine, reflect=True)
 Measurement = Base.classes.measurement
 Station = Base.classes.station
 
-#Define the Query Dates
-session = Session(engine)
-
-# Calculate the date 1 year ago from the last data point in the database
-year_ago = dt.date(2017,8,23) - dt.timedelta(days=365)
-
-
-session.close()
 
 
 #Flask 
@@ -33,12 +25,27 @@ app = Flask(__name__)
 @app.route("/")
 def welcome():
     return (
-        f"Welcome to the Hawaii Weather Alchemy Page!!<br/>"
-        f"Available Routes:<br/>"
-        f"/api/v1.0/precipitation<br/>"
-        f"/api/v1.0/stations<br/>"
-        f"/api/v1.0/tobs<br/>"
-        f"/api/v1.0/start<br/>"
+        f"Welcome to the Hawaii Weather Alchemy Page!!<br/><br/>"
+
+        f"Available Routes:<br/><br/>"
+
+        f"Precipitation by Dates"
+        f"/api/v1.0/precipitation<br/><br/>"
+
+        f"Station Infromation"
+        f"/api/v1.0/stations<br/><br/>"
+
+        f"Temperature for the Most Active Station for the Past Year<br/>"
+        f"/api/v1.0/tobs<br/><br/>"
+
+        f"Temperature Analysis by Start Date to Latest Date of Dataset<br/>"
+        f"(Input date as format as YYYY-MM-DD)<br/>"
+        f"(IE. /api/v1.0/2016-05-01)<br/>"
+        f"/api/v1.0/startdate<br/><br/>"
+
+        f"Temperature Analysis by Start Date to End Date of Your Choice<br/>"
+        f"(Input date as format as YYYY-MM-DD)<br>"
+        f"(IE. /api/v1.0/2016-05-01/2016/05/15)<br/>"
         f"/api/v1.0/start/end<br/>"
     )
 
@@ -90,6 +97,10 @@ def stations():
 # Define Session & Query Station Results
 def tobs():
     session = Session(engine)
+
+    # Calculate the date 1 year ago from the last point in database.  
+    # We know the most recent date is 2017-08-23 and most active tation is USC00519281 from the Jupyter Notebook exercise.
+    year_ago = dt.date(2017,8,23) - dt.timedelta(days=365)
     tobs_results = session.query(Measurement.date, Measurement.tobs).filter(Measurement.date > year_ago).filter(Measurement.station == 'USC00519281').all()
     session.close()
 
@@ -109,7 +120,8 @@ def start(startdate):
     session = Session(engine)
     temp_results = session.query(func.min(Measurement.tobs), func.avg(Measurement.tobs), func.max(Measurement.tobs)).\
                    filter(Measurement.date >= startdate).all()
-    
+    session.close()
+
     # Create a dictionary to store the values 
     temp = []
     for value in temp_results:
