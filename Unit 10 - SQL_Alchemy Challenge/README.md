@@ -96,14 +96,15 @@ The calc_temps function have been created to calculate the min, avg, and max tem
 
 Calculating the the total rainfall per weather station using the previous year's matching dates for my trip.
 
-| Station ID    | Station Name | Latitude | Longitude | Elevation | Total Rainfall |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| USC00516128    | MANOA LYON ARBO 785.2, HI US | 21.33310 | -157.80250| 152.4 | 0.92 |
-| USC00514830    | KUALOA RANCH HEADQUARTERS 886.9, HI US | 21.52130 | -157.83740 | 7.0 | 0.2 |
-| USC00519281    | USC00519281	WAIHEE 837.5, HI US | 21.45167 | -157.84889 | 32.9 | 0.06 |
-| USC00519397    | WAIKIKI 717.2, HI US | 21.27160 | -157.81680 | 3.0 | 0.02 |
-| USC00519523    | WAIMANALO EXPERIMENTAL FARM, HI US | 21.33556 | -157.71139 | 19.5 | 0.00 |
 
+
+|Station ID| Station Name | Latitude | Longitude | Elevation | Total Rainfall|
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+|USC00516128|	MANOA LYON ARBO 785.2, HI US|	21.33310|	-157.80250|	152.4|	0.92|
+|USC00514830|	KUALOA RANCH HEADQUARTERS 886.9, HI US|	21.52130|	-157.83740|	7.0|	0.20|
+|USC00519281|	WAIHEE 837.5, HI US|	21.45167|	-157.84889|	32.9|	0.06|
+|USC00519397|	WAIKIKI 717.2, HI US|	21.27160|	-157.81680|	3.0|	0.02|
+|USC00519523|	WAIMANALO EXPERIMENTAL FARM, HI US|	21.33556|	-157.71139|	19.5|	0.00|
 
 ### **Daily Normals**
 
