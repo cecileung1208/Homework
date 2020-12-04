@@ -21,7 +21,24 @@ A query have been designed to collect the past 12 months of precipitation data t
 
 To ensure that my analysis is accurate, weather information have been gathered from various stations.  
 
-A query have been designed to determine the total number of stations, most active station with the highest number of observations, and to retrieve the last 12 months temperature observation data (TOBS).
+A query have been designed to determine the total number of stations and the most active station with the highest number of observations. 
+
+| Station ID    | Station Name | Total Counts |
+| ------------- | ------------- | ------------- |
+|USC00519281 | WAIHEE 837.5, HI US | 2772|
+|USC00519397 | WAIKIKI 717.2, HI US | 2724|
+|USC00513117 | KANEOHE 838.1, HI US | 2709|
+|USC00519523 | WAIMANALO EXPERIMENTAL FARM, HI US | 2669|
+|USC00516128 | MANOA LYON ARBO 785.2, HI US | 2612|
+|USC00514830 | KUALOA RANCH HEADQUARTERS 886.9, HI US | 2202|
+|USC00511918 | HONOLULU OBSERVATORY 702.2, HI US | 1979|
+|USC00517948 | PEARL CITY, HI US | 1372|
+|USC00518838 | UPPER WAHIAWA 874.3, HI US | 511|
+
+
+
+
+and to retrieve the last 12 months temperature observation data (TOBS).
 
 The below histogram shows the frequency of the range of temperature in Hawaii form the most active station.
 
