@@ -58,8 +58,6 @@ I have conducted additonal analysis to make the most out of my trip in the [Clim
 
 ### **Temperature Analysis I**
 
-Hawaii is reputed to enjoy mild weather all year. Is there a meaningful difference between the temperature in, for example, June and December?
-
 Analysis have been conducted by determining the averages of June an December for all stations across all available years in the dataset. 
 
 A T-Test has been conducted to determine to test the difference of the mean with the following hypothesis.
@@ -69,7 +67,7 @@ Alternative Hypothesis: Mean Difference > 0<br/>
 
 P-value = 0.00036573
 
-Since the p-value is almost 0.0004 , there is a difference in the mean temperatures in June and December.Paired t-tests are considered more powerful than unpaired t-tests because using the same samples eliminiate variation between the samples that could be caused by anything other than what’s being tested.
+Since the p-value is almost 0.0004 , there is a difference in the mean temperatures in June and December.  Paired t-tests are considered more powerful than unpaired t-tests because using the same samples eliminiate variation between the samples that could be caused by anything other than what’s being tested.
 
 Details of the analysis is in the [Climate Starter Notebook](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/climate_starter.ipynb)
 
