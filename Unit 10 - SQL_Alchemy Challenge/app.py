@@ -99,7 +99,7 @@ def tobs():
     session = Session(engine)
 
     # Calculate the date 1 year ago from the last point in database.  
-    # We know the most recent date is 2017-08-23 and most active tation is USC00519281 from the Jupyter Notebook exercise.
+    # We know the most recent date is 2017-08-23 and most active tation is USC00519281 from the Preceipitation and Station Analysis from Jupyter Notebook.
     year_ago = dt.date(2017,8,23) - dt.timedelta(days=365)
     tobs_results = session.query(Measurement.date, Measurement.tobs).filter(Measurement.date > year_ago).filter(Measurement.station == 'USC00519281').all()
     session.close()
