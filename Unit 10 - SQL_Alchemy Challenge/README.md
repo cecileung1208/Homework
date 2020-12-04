@@ -6,7 +6,7 @@ After settling in my career as a Data Analyst, I have decided to treat myself to
 
 Python and SQLAlchemy have been used to conduct climate anlysis and data exploration by connecting to the SQLite Database. 
 
-The analysis is completed in the [Climate Starter Notebook](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/climate_starter.ipynb) by connecting to the [Hawaii SQLite Database](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/Resources/hawaii.sqlite) to obtain climate results using the SQLAlchemy ORM queries, Pandas, and Matplotlib.
+The analysis is completed by using the [Climate Starter Notebook](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/climate_starter.ipynb) and [Hawaii SQLite Database](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/Resources/hawaii.sqlite) to obtain climate results using the SQLAlchemy ORM queries, Pandas, and Matplotlib.
 
 
 ### **Precipitation Analysis**
