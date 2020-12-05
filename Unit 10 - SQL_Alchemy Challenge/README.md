@@ -50,7 +50,7 @@ The Flask API have the following routes:
 
 * **Home page (/)**
 
-* **Precipitation (/api/v1.0/precipitation)**<br/> - Return a JSON list of all precipitation information in the Hawaii SQLite Database.
+* **Precipitation (/api/v1.0/precipitation)**<br/> - Return a JSON list of all precipitation information of the past year.
     
 * **Stations (/api/v1.0/stations)**<br/> - Return a JSON list of stations from the dataset.
   
