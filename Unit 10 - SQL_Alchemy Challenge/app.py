@@ -29,7 +29,7 @@ def welcome():
 
         f"Available Routes:<br/><br/>"
 
-        f"Precipitation by Dates"
+        f"Precipitation of the Past Year"
         f"/api/v1.0/precipitation<br/><br/>"
 
         f"Station Infromation"
@@ -55,9 +55,11 @@ def welcome():
 @app.route("/api/v1.0/precipitation")
 def precipitation():
 
-    # Define Session & Query Precipitation Results
+    # Define Session & Query Precipitation Results for the past year
     session = Session(engine)
-    prcp_results = session.query(Measurement.date, Measurement.prcp).all()
+    # We know the most recent date is 2017-08-23 a Preceipitation Analysis from Jupyter Notebook.
+    year_ago = dt.date(2017,8,23) - dt.timedelta(days=365)
+    prcp_results = session.query(Measurement.date, Measurement.prcp).filter(Measurement.date > year_ago).all()
     session.close()
     
     # Create a dictionary as date the key and prcp as the value
