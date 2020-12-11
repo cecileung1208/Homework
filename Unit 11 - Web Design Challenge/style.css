@@ -77,9 +77,12 @@ body{
     overflow: hidden;
 }
 
-.content.bg-white {
+.content.background-white {
     margin-top: 15px;
+    background-color: white;
 }
+
+
 
 /* small screen adjustments*/
 @media(max-width:767px){
