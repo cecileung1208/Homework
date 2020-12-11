@@ -4,61 +4,98 @@
       <meta charset="UTF-8">
       <title>Cloudiness</title>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="style.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </head>
 
     
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">Latitude</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <body>
+      <!--Navigation Bar-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand text-white" href="index.html" >Latitude</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plot
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+                <a class="dropdown-item" href="humidity.html">Humidity</a>
+                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+              </div>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="comparisons.html">Comparison <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="data.html">Data</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </nav>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Plot
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
-            <a class="dropdown-item" href="humidity.html">Humidity</a>
-            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-            <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
-          </div>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="comparisons.html">Comparison <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="data.html">Data</a>
-        </li>
-  </nav>
-
-
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-lg 8 col-md-6 col-sm-6">
-          <h1>Cloudiness</h1>
-          <hr class="my-4">
-          <img src="Assets/Latitude_Cloudiness.png" width = "45%" alt="How Latitude and Cloudiness are Correlated" title= "Latitude vs. Cloudiness" 
+  
+  <!--Create Container for Index Page-->
+  <div class = "container content">
+    <div class = "row">
+      <div class="col-md-8">
+          <div class ="col-md-12">
+          <h3>Cloudiness</h3>
+          <hr>
+          <img src="Assets/Latitude_Cloudiness.png" class = "image" width = "50%" alt="How Latitude and Cloudiness are Correlated" title= "Latitude vs. Cloudiness" 
            style = "float: left">
-          <p>CLOUDINESS, CLOUDINESS, CLOUDINESS</p>
+          <p>The correlation between latitude and cloudiness have close to a zero correlation.  Based on this graph, an interesting fact have been found!  
+            Majority of the cities have 0% or 80-100% cloudiness.
+         </div>
       </div>
-      <div class="col-lg 4 col-lg-6 col-sm-6">
-          <h1>Visualizations</h1>
-          <hr class="my-4">
-          <a href="max_temp.html"><img src="Assets/Latitude_MaxTemp.png" alt = "How Latitudue and Max Temp are Correlated" title= "Latitude vs. Maximum Temperature" width = "45%"></a>
-          <a href="humidity.html"><img src="Assets/Latitude_Humidity.png" alt = "How Latitudue and Humidity are Correlated" title= "Latitude vs. Humidity" width = "45%"></a>
-          <a href="cloudiness.html"><img src="Assets/Latitude_Cloudiness.png" alt = "How Latitudue and Cloudiness are Correlated" title= "Latitude vs. Cloudiness" width = "45%"></a> 
-          <a href="wind_speed.html"><img src="Assets/Latitude_WindSpeed.png" alt = "How Latitudue and Wind Speed are Correlated" title= "Latitude vs Wind Speed" width = "45%"></a>
-      </div>
-    </div>
-  </div>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!--Create Container for Visualization-->     
+  <div class="col-md-4">
+    <div class="col-md-12">
+        <h3>Visualizations</h3>
+        <hr>
+        <div class="row">
+            <div class="col-3 col-md-6">
+                <a href="max_temp.html"><img src="Assets/Latitude_MaxTemp.png" width = "100%" alt="How Latitude and Max Temp are Correlated" title= "Latitude vs. Maximum Temperature">
+                </a> 
+            </div>
+            <div class="col-3 col-md-6">
+              <a href="humidity.html"><img src="Assets/Latitude_Humidity.png" width = "100%" alt="How Latitude and Humidity are Correlated" title= "Latitude vs. Humidity">
+              </a>
+            </div>
+       
+            <div class="col-3 col-md-6">
+              <a href="cloudiness.html"><img src="Assets/Latitude_Cloudiness.png" width = "100%" alt="How Latitude and Cloudiness are Correlated" title= "Latitude vs. Cloudiness">
+              </a>
+            </div>
+
+            <div class="col-3 col-md-6">
+                <a href="wind_speed.html"><img src="Assets/Latitude_WindSpeed.png" width="100%"  alt="How Latitude and Wind Speed are Correlated" title= "Latitude vs. Wind Speed">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+
+<!-- Footer -->
+<footer class="page-footer font-small footer-dark">
+  <div class="footer-copyright text-center py-3">
+  <h6>Copyright</h6>
+  <p>Trilogy Education Services © 2019. All Rights Reserved</p>
+  </div>      
+</footer>
 </body>
 </html>
