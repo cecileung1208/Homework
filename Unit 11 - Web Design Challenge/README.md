@@ -14,10 +14,11 @@ For reference, see the [Screenshots](#screenshots) section below.
 
 The website must consist of 7 pages total, including:
 
-1. A Landing page containing:
+1. A [Landing page](#landing-page) containing:
 
   - An explanation of the project.
   - Links to each visualizations page. There should be a sidebar containing preview images of each plot, and clicking an image should take the user to that visualization.
+  -
 
 2. Four Visualization pages, each with:
 
@@ -40,4 +41,7 @@ The website must consist of 7 pages total, including:
   - The data must come from exporting the .csv file as HTML, or converting it to HTML. Try using a tool you already know, pandas. Pandas has a nifty method approprately called     to_html that allows you to generate a HTML table from a pandas dataframe. See the documentation here
 
 ### Screenshots
+
+#### Landing Page
+
 
