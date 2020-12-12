@@ -134,6 +134,8 @@ Inside the Web Challenge Folder, there are the Assets, Resources, and Visualizat
 |                 | [Visualization- Small Screen.png](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/Visualizations/Visualization%20-%20Small%20Screen.png)|
 |                 | [Comparison- Big Screen.png](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/Visualizations/Comparison-%20Big%20Screen.png)|
 |                 | [Comparison- Small Screen.png](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/Visualizations/Comparison-%20Small%20Screen.png)|
-|                 | [Data- Big Screen.png](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/Visualizations/Data-%20Big%20Screen.png)|
-|                 | [Data- Small Screen.png](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/Visualizations/Data-%20Small%20Screen.png)|
+|                 | [Data- Big Screen.png](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/Visualizations/Data%20-%20Big%20Screen.png)|
+|                 | [Data- Small Screen.png](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/Visualizations/Data%20-%20Small%20Screen.png)|
+|                 | [Navigation Bar- Big Screen.png](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/Visualizations/Navigation%20Bar%20-%20Big%20Screen.png)|
+|                 | [Navigation Bar- Small Screen.png](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/Visualizations/Navigation%20Bar%20-%20Small%20Screen.png)|
 
