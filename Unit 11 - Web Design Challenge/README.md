@@ -111,7 +111,7 @@ The below folders have the following files:
 |                                  | [index.html](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/index.html)|
 |                                  | [max_temp.html](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/max_temp.html)|
 |                                  | [humidity.html](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/humidity.html)|
-|                                  | [cloudines.html](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/cloudiness.html)|
+|                                  | [cloudiness.html](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/cloudiness.html)|
 |                                  | [wind_speed.html](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/wind_speed.html)|
 |                                  | [comparisons.html](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/comparisons.html)|
 |                                  | [data.html](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/data.html)|
