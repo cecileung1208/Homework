@@ -12,7 +12,7 @@ In building this dashboard, we'll create individual pages for each plot and a me
 ### Website Requirements
 For reference, see the [Screenshots](#screenshots) section below.
 
-The website must consist of 7 pages total, including:
+The website must consist of 7 html pages and 1 style page in total, including:
 
 **1. A [Landing page](#landing-page) containing:**
 
@@ -42,7 +42,12 @@ The website must consist of 7 pages total, including:
   - The table must be a bootstrap table component. 
   - The data must come from exporting the [.csv file](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/Resources/cities.csv) as HTML, or converting it to HTML. Try using a tool you already know, pandas. Pandas has a nifty method approprately called [to_html](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/Resources/Cities%20Table%20HTML%20Coversion.ipynb) that allows you to generate a HTML table from a pandas dataframe.
   - See the [data.html file](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/data.html)
+ 
+**5. Style Sheet**
 
+  - This is to store default settings for the html files.  
+  - Settings include fonts, padding, background colour, formats for resizing the browser etc for the header and paragraph text, navigation bar, containers, column sizes, footer.
+  - Details are in the [style.css file](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/style.css)
 ### Screenshots
 
 #### Landing Page
