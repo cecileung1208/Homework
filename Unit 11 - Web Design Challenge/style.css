@@ -4,13 +4,13 @@ a.navbar-brand{
     padding: 10px;
     background-color: #20B2AA;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 28px;
 }
 
 .navbar{
     padding-top:0px;
     padding-bottom: 0px;
-    padding-right:40px;
+    padding-right:50px;
 }
 
 
@@ -21,36 +21,33 @@ h3{
     padding: 15px;
 }
 
-/* fontstyling for text*/
-p{
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 18px;
-   padding:20px;
-}
-
 /* body background*/
 body{
-    background-color: rgb(223, 222, 222);
+    background-color:#DCDCDC;
 }
 .col-md-12{
     background-color: white;
     padding-top: 20px;
-    padding-bottom:40px;
+    padding-bottom:75px;
 }
 
-/* image border styling*/
-.pic{
-    border: 3px solid rgb(81, 175, 160);
+
+/* fontstyling for text*/
+p{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 17px;
+   padding:20px;
 }
-/* navbar styling*/
+
 
 /* content styling*/
 .content {
     padding-top: 50px;
     padding-bottom: 200px;
     overflow: hidden;
+}
 
-.content.background-white {
+.content.background-white{
     margin-top: 15px;
     background-color: white;
 }
@@ -70,15 +67,34 @@ body{
 
 
 /* small screen adjustments*/
-@media(max-width:767px){
+@media only screen and (max-width: 768px) {
     .navbar.bg-light{
-        background-color: rgb(81, 175, 160)!important;    
+        background-color:#20B2AA;    
     }
 
     .navbar-collapse{
-        background-color: #f8f9fa;
+        background-color: #DCDCDC;
     }
     .navbar{
         padding:inherit;
+    }
+    
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        padding:10px;
+     }
+    
+    .col-md-12{
+        background-color: white;
+        padding-top: 10px;
+        padding-bottom:30px;
+    }
+
+    h3{
+        color: #20B2AA;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        padding: 15px;
     }
 }
