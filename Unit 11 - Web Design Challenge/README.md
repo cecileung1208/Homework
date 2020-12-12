@@ -11,7 +11,7 @@ In building this dashboard, we'll create individual pages for each plot and a me
 
 ### Website Requirements
 For reference, see the ["Screenshots"](###-Screenshots) section below.
-
+[Titles](#titles)
 The website must consist of 7 pages total, including:
 
 1. A landing page containing:
@@ -43,3 +43,5 @@ The table must be a bootstrap table component. Hint
 The data must come from exporting the .csv file as HTML, or converting it to HTML. Try using a tool you already know, pandas. Pandas has a nifty method approprately called to_html that allows you to generate a HTML table from a pandas dataframe. See the documentation here
 
 ### Screenshots
+
+# Titles 
