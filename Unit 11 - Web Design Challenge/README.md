@@ -47,8 +47,51 @@ The website must consist of 7 pages total, including:
 
 #### Landing Page
 
+Large Screen
+
+![Image](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/Visualizations/Dashboard%20-%20Big%20Screen.png)
+
+Small Screen
+
+![Image](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/Visualizations/Dashboard%20-%20Small%20Screen.png)
+
+
 #### Visualizations Page
+
+Large Screen 
+
+![Image](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/Visualizations/Visualization%20-%20Big%20Screen.png)
+
+Small Screen 
+
+![Image](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/Visualizations/Visualization%20-%20Small%20Screen.png)
 
 #### Comparisons Page
 
+Large Screen
+
+![Image](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/Visualizations/Comparison-%20Big%20Screen.png)
+
+Small Screen
+
+![Image](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/Visualizations/Comparison-%20Small%20Screen.png)
+
 #### Data Page
+
+Large Screen
+
+![Image](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/Visualizations/Data%20-%20Big%20Screen.png)
+
+Small Screen
+
+![Image](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/Visualizations/Data%20-%20Small%20Screen.png)
+
+#### Navigation Bar
+
+Large Screen 
+
+![Image](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/Visualizations/Navigation%20Bar%20-%20Big%20Screen.png)
+
+Small Screen
+
+![Image](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/Visualizations/Navigation%20Bar%20-%20Small%20Screen.png)
