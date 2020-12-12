@@ -25,7 +25,7 @@ The website must consist of 7 html pages and 1 style page in total, including:
   - A descriptive title and heading tag.
   - The plot/visualization itself for the selected comparison.
   - A paragraph describing the plot and its significance.
-  - See the [max_temp.html file](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/max_temp.html), [humidity.html file](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/max_temp.html), [cloudiness.html file](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/max_temp.html), and [wind_speed.html file](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/wind_speed.html) for the html codes.
+  - See the [max_temp.html file](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/max_temp.html), [humidity.html file](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/humidity.html), [cloudiness.html file](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/cloudiness.html), and [wind_speed.html file](https://github.com/cecileung1208/Homework/blob/master/Unit%2011%20-%20Web%20Design%20Challenge/wind_speed.html) for the html codes.
 
 
 **3. A [Comparisons page](#comparisons-page) that:**
