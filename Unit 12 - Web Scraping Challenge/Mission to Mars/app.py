@@ -2,6 +2,11 @@
 from flask import Flask, render_template
 import pymongo
 
+# setup mongo connection
+conn = "mongodb://localhost:27017"
+client = pymongo.MongoClient(conn)
+
+
 # create instance of Flask app
 app = Flask(__name__)
 
@@ -9,12 +14,10 @@ app = Flask(__name__)
 # create route that renders index.html template
 @app.route("/scrape")
 def scrape():
-    movie_list = ["Mighty Ducks", "Space Jam", "Clerks", "Batman", "Avengers"]
-    return render_template("index.html", list=movie_list)
+    return render_template("index.html")
 
 @app.route("/")
 def main():
-    movie_list = ["Mighty Ducks", "Space Jam", "Clerks", "Batman", "Avengers"]
     return render_template("index.html")
 
 if __name__ == "__main__":
