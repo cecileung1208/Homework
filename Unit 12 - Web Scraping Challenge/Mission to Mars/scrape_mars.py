@@ -143,7 +143,7 @@ for items in range(len(h3links)):
     
     ## images
     image_url= browser.links.find_by_text('Sample').first
-    hemidict['sample_img'] = image_url['href']
+    hemidict['img_url'] = image_url['href']
     hemi_img_urls.append(hemidict)
     browser.back()
     
