@@ -72,11 +72,11 @@ def scrape():
 
     #Format the table by changing column names
     column_names = {mars_df.columns[0]: 'Description', mars_df.columns[1]: 'Value'}
-    mars_df.rename(columns = column_names)
+    mars_facts_html = mars_df.rename(columns = column_names).set_index('Description')
 
     # Use Pandas to convert the data to a HTML table string.
-    mars_facts_html = mars_df.to_html()
-    print(mars_facts_html)
+    mars_facts_table = mars_facts_html.to_html()
+    
 
     ### Mars Hemisphere
     # URL of page to be scraped
@@ -113,7 +113,7 @@ def scrape():
                 "news_title": news_title,
                 "news_text": news_text,
                 "featured_image_url": featured_image_url,
-                "html_table": mars_facts_html,
+                "html_table": mars_facts_table,
                 "hemisphere_img_urls": hemi_img_urls
         }
 
