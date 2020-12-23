@@ -22,6 +22,8 @@
             <h4>{{mars_data.news_title}}</h4>
             <p>{{mars_data.news_text}}</p>
         </div>
+        <br>
+        <br>
       
 
         <div class="container">
@@ -36,9 +38,39 @@
           </div>
           </div>
         </div>
-          
-
-</body>
+        <br>
+        <br>
+        
+        <div class="container">
+          <div class="row">
+          <div class="col-lg-12 col-md-6">
+          <h4 style = "text-align: center;"> Mar's Hemisphere</h4>
+          <div class="col-lg-12">
+            <div class="row">
+            <div class = "col-md-6">
+              <img src={{mars_data.hemisphere_img_urls.0.image_url}} style = "max-width: 100%;"  alt =" Featured Image - Mars">
+              <p>{{mars_data.hemisphere_img_urls.0.title}}</p>
+            </div> 
+            <div class = "col-md-6">
+              <img src={{mars_data.hemisphere_img_urls.1.image_url}} style = "max-width: 100%;"  alt =" Featured Image - Mars">
+              <p>{{mars_data.hemisphere_img_urls.1.title}}</p>
+            </div> 
+            </div>
+            <div class="row">
+              <div class = "col-md-6">
+                <img src={{mars_data.hemisphere_img_urls.2.image_url}} style = "max-width: 100%;"  alt =" Featured Image - Mars">
+                <p>{{mars_data.hemisphere_img_urls.2.title}}</p>
+              </div> 
+              <div class = "col-md-6">
+                <img src={{mars_data.hemisphere_img_urls.3.image_url}} style = "max-width: 100%;"  alt =" Featured Image - Mars">
+                <p>{{mars_data.hemisphere_img_urls.3.title}}</p>
+              </div> 
+              </div>
+          </div>
+          </div>
+          </div>
+        </div>
+        </body>
 
 </html>
 
