@@ -71,7 +71,7 @@ def scrape():
     mars_df = table_mars[0]
 
     #Format the table by changing column names
-    column_names = {mars_df.columns[0]: 'Description', mars_df.columns[1]: 'Value'}
+    column_names = {mars_df.columns[0]: 'Description', mars_df.columns[1]: 'Mars'}
     mars_facts_html = mars_df.rename(columns = column_names).set_index('Description')
 
     # Use Pandas to convert the data to a HTML table string.
