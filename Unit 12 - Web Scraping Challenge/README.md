@@ -11,4 +11,8 @@ A Jupyter Notebook file called [mission_to_mars.ipynb](https://github.com/cecile
 
 ### NASA Mars News
 
-* Scrape the [NASA Mars News Site](https://mars.nasa.gov/news/?page=0&per_page=40&order=publish_date+desc%2Ccreated_at+desc&search=&category=19%2C165%2C184%2C204&blank_scope=Latest) and collect the latest News Title and Paragraph Text. Assign the text to variables that you can reference later.
+* Scrape the [NASA Mars News Site](https://mars.nasa.gov/news/?page=0&per_page=40&order=publish_date+desc%2Ccreated_at+desc&search=&category=19%2C165%2C184%2C204&blank_scope=Latest) and collect the latest News Title and Paragraph Text. Variables have been assigned so it can be referenced later on.
+* Output:<br>
+  news_title = A Martian Roundtrip: NASA's Perseverance Rover Sample Tubes<br>
+  ---------------------------------------------------------------------------------------------------------------------------<br>
+  news_p = Marvels of engineering, the rover's sample tubes must be tough enough to safely bring Red Planet samples on the long journey back to Earth in immaculate condition. 
