@@ -12,7 +12,17 @@ A Jupyter Notebook file called [mission_to_mars.ipynb](https://github.com/cecile
 ### NASA Mars News
 
 * Scrape the [NASA Mars News Site](https://mars.nasa.gov/news/?page=0&per_page=40&order=publish_date+desc%2Ccreated_at+desc&search=&category=19%2C165%2C184%2C204&blank_scope=Latest) and collect the latest News Title and Paragraph Text. Variables have been assigned so it can be referenced later on.
-* Output:<br>
+* Example:<br><br>
   news_title = A Martian Roundtrip: NASA's Perseverance Rover Sample Tubes<br>
   ---------------------------------------------------------------------------------------------------------------------------<br>
   news_p = Marvels of engineering, the rover's sample tubes must be tough enough to safely bring Red Planet samples on the long journey back to Earth in immaculate condition. 
+
+
+
+### JPL Mars Space Images - Featured Image
+
+* Visit the url for [JPL Featured Space Image website](https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars).
+* Use splinter to navigate the site and find the image url for the current Featured Mars Image and assign the url string to a variable called featured_image_url.
+* Example:<br><br>
+  featured image url = https://www.jpl.nasa.gov/spaceimages/images/mediumsize/PIA00069_ip.jpg
+  
