@@ -52,3 +52,7 @@ A Jupyter Notebook file called [mission_to_mars.ipynb](https://github.com/cecile
 * Store the return value in Mongo as a Python dictionary.
 * Create a root route "/" that will query your Mongo database and pass the mars data into an HTML template to display the data.
 * Create a template HTML file called [index.html](https://github.com/cecileung1208/Homework/blob/master/Unit%2012%20-%20Web%20Scraping%20Challenge/Mission%20to%20Mars/templates/index.html) that will take the mars data dictionary and display all of the data in the appropriate HTML elements. Use the following as a guide for what the final product should look like, but feel free to create your own design.
+* The final output should be as follows:
+
+![Image](https://github.com/cecileung1208/Homework/blob/master/Unit%2012%20-%20Web%20Scraping%20Challenge/Mission%20to%20Mars/Images/Mission%20to%20Mars%20HTML%201.png)
+![Image](https://github.com/cecileung1208/Homework/blob/master/Unit%2012%20-%20Web%20Scraping%20Challenge/Mission%20to%20Mars/Images/Mission%20to%20Mars%20HTML%202.png)
