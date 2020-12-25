@@ -55,4 +55,4 @@ A Jupyter Notebook file called [mission_to_mars.ipynb](https://github.com/cecile
 * The final output should be as follows:
 
 ![Image](https://github.com/cecileung1208/Homework/blob/master/Unit%2012%20-%20Web%20Scraping%20Challenge/Mission%20to%20Mars/Images/Mission%20to%20Mars%20HTML%201.png)
-![Image](https://github.com/cecileung1208/Homework/blob/master/Unit%2012%20-%20Web%20Scraping%20Challenge/Mission%20to%20Mars/Images/Mission%20to%20Mars%20HTML%202.png)
+<img style="float: center;" src="https://github.com/cecileung1208/Homework/blob/master/Unit%2012%20-%20Web%20Scraping%20Challenge/Mission%20to%20Mars/Images/Mission%20to%20Mars%20HTML%202.png">
