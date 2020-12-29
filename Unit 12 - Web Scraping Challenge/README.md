@@ -58,3 +58,24 @@ A Jupyter Notebook file called [mission_to_mars.ipynb](https://github.com/cecile
 <p align="center">
   <img src="https://github.com/cecileung1208/Homework/blob/master/Unit%2012%20-%20Web%20Scraping%20Challenge/Mission%20to%20Mars/Images/Mission%20to%20Mars%20HTML%202.png">
 </p>
+
+## Folders and Directories
+
+The below folders have the following files:
+
+| Folder Name    | File Name |
+| ------------- | ------------- |
+|Unit 12 - Mission To Mars         | [app.py](https://github.com/cecileung1208/Homework/blob/master/Unit%2012%20-%20Web%20Scraping%20Challenge/Mission%20to%20Mars/app.py)|
+|                                  | [mission_to_mars.ipynb](https://github.com/cecileung1208/Homework/blob/master/Unit%2012%20-%20Web%20Scraping%20Challenge/Mission%20to%20Mars/mission_to_mars.ipynb)|
+|                                  | [scrape_mars.py](https://github.com/cecileung1208/Homework/blob/master/Unit%2012%20-%20Web%20Scraping%20Challenge/Mission%20to%20Mars/scrape_mars.py)|
+
+
+
+Inside the Web Challenge Folder, there are the Assets, Resources, and Visualization folders that store the following files:
+
+| Folder Name    | File Name |
+| ------------- | ------------- |
+| Images        | [Mars_DB - Mongo.png](https://github.com/cecileung1208/Homework/blob/master/Unit%2012%20-%20Web%20Scraping%20Challenge/Mission%20to%20Mars/Images/Mars_DB%20-%20Mongo.png)|
+|               | [Mission to Mars HTML 1.png](https://github.com/cecileung1208/Homework/blob/master/Unit%2012%20-%20Web%20Scraping%20Challenge/Mission%20to%20Mars/Images/Mission%20to%20Mars%20HTML%201.png)|
+|               | [Mission to Mars HTML 2.png](https://github.com/cecileung1208/Homework/blob/master/Unit%2012%20-%20Web%20Scraping%20Challenge/Mission%20to%20Mars/Images/Mission%20to%20Mars%20HTML%202.png)|
+| templates   | [index.html](https://github.com/cecileung1208/Homework/blob/master/Unit%2012%20-%20Web%20Scraping%20Challenge/Mission%20to%20Mars/templates/index.html)|
